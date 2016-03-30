@@ -14,6 +14,10 @@
 
 		<!-- Custom styles for this template -->
 		<link href="style.css" rel="stylesheet">
+		<link href="animate.css" rel="stylesheet">
+
+		<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,700' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Raleway:600,500,700' rel='stylesheet' type='text/css'>
 
 		<!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
 		<!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
@@ -28,11 +32,85 @@
 
 	<body role="document">
 
-		<div class="container theme-showcase" role="main">
+		<div class="[ info-erp ]">
 
-			<h2>Enterprise resource planning</h2>
+			<section class="[ container ][ what-is ]">
+				<h2 class="[ text-center ][ what-is__title ][ wow bounceInDown ][ background-dark color-light ][ padding margin-bottom--xlarge ]">Enterprise resource planning</h2>
+				<article class="[ row ]">
+					<div class="[ col-sm-4 ][ margin-bottom--xlarge ]">
+						<img class="[ wow rollIn ][ img-responsive img-centered ]" src="assets/images/what-is-erp.png" alt="">
+						<img data-wow-delay="2000ms" class="[ wow bounceInRight ][ img-responsive img-centered ][ width-50 ][ hidden-xs ]" src="assets/images/3-cogs.png" alt="">
+					</div>
+					<div class="[ col-sm-4 ][ margin-bottom--xlarge ]">
+						<div class="[ wow fadeInUp ][ margin-top ]">
+							<img class="[ img-responsive img-centered ][ hidden-xs ]" src="assets/images/software.png" alt="">
+							<p class="[ text-center color-terciary text-bold ]">ERP is a business software with functionality for every part of your business integrated into one robust solution</p>
+						</div>
+					</div>
+					<div class="[ col-sm-4 ][ margin-bottom--xlarge ]">
+						<img data-wow-delay="500ms" class="[ wow bounceInRight ][ img-responsive img-centered ][ width-50 ][ opacity-30 ][ margin-bottom--xlarge ]" src="assets/images/3-cogs.png" alt="">
+						<p data-wow-delay="500ms" class="[ wow bounceInRight ][ color-terciary text-bold text-right ][ margin-bottom--xlarge ]">ERP is implemented to improve the organizations'</p>
+						<img data-wow-delay="1000ms" class="[ wow slideInRight ][ img-responsive img-centered ][ margin-bottom--xlarge ]" src="assets/images/resource-planning.png" alt="">
+						<img data-wow-delay="1500ms" class="[ wow slideInRight ][ img-responsive img-centered ][ margin-bottom--xlarge ]" src="assets/images/management-and-operational.png" alt="">
+						<!--<img data-wow-delay="2000ms" class="[ wow slideInDown ][ img-responsive img-centered ]" src="assets/images/arrow-down-left.png" alt=""> -->
+					</div>
+				</article>
+				<article class="[ row ][ margin-bottom--xlarge ]">
+					<div data-wow-delay="1500ms" class="[ col-sm-12 col-md-8 ][ wow slideInLeft ][ text-right ]">
+						<p class="[ text-semi-bold color-dark ]">
+							Its main purpose is to<br />
+							<span class="[ h3 ][ color-primary background-primary-30 ]">improve and streamline</span><br />
+							<span class="[ h3 ][ color-primary background-primary-30 ]">internal business processes</span><br />
+							to facilitate the information flow between all business functions, <br />
+							consolidating operations into a uniform system.
+						</p>
+					</div>
+				</article>
+			</section>
 
+			<section class="[ background-primary ][ padding--xlarge ]">
+				<article class="[ container ]">
+					<div class="[ row ][ hidden-xs ]">
+						<div class="[ col-sm-2 ][ wow bounceInLEft ]">
+							<img class="[ img-responsive img-centered ][ width-50 ]" src="assets/images/2-cogs-a.png" alt="">
+						</div>
+						<div class="[ col-sm-4 ][ margin-top ][ wow bounceInLeft ]">
+							<img class="[ img-responsive img-centered ][ width-50 ]" src="assets/images/dotted-line-left.png" alt="">
+						</div>
+						<div class="[ col-sm-4 ][ margin-top ][ wow bounceInRight ]">
+							<img class="[ img-responsive img-centered ][ width-50 ]" src="assets/images/dotted-line-right.png" alt="">
+						</div>
+						<div class="[ col-sm-2 ][ wow bounceInRight ]">
+							<img class="[ img-responsive img-centered ][ width-50 ]" src="assets/images/2-cogs-b.png" alt="">
+						</div>
+					</div>
+					<div class="[ row ]">
+						<div class="[ col-sm-4 ][ margin-bottom--xlarge ]">
+							<p class="[ bold ][ wow fadeInLeftBig ][ color-light-50 ]"  data-wow-delay="1000ms">
+								It can integrate activities across functional departments ranging from<br />
+								<span class="[ block ][ text-right ][ h4 ][ color-light ]">product planning, parts purchasing, inventory control, and product distribution, to order tracking.</span>
+							</p>
+						</div>
+						<div class="[ col-sm-4 ][ margin-bottom--xlarge ][ wow pulse ]">
+							<img class="[ img-responsive img-centered ][ width-90 ]" src="assets/images/key.png" alt="">
+						</div>
+						<div class="[ col-sm-4 ][ margin-bottom--xlarge ]">
+							<p class="[ bold ][ wow fadeInRightBig ][ color-light-50 ]"  data-wow-delay="1000ms">
+								<span class="[ block ][ h4 ][ color-light ]">Works with finance & accounting, forecasting, reporting.</span><br />
+								Can be deployed in several ways, including: on premise, in the cloud.
+							</p>
+						</div>
+					</div>
+				</article>
+			</section>
 
+			<!-- <section class="wow slideInLeft" data-wow-duration="2s" data-wow-delay="5s">
+				yahoo!
+			</section>
+
+			<section class="wow slideInRight" data-wow-offset="10"  data-wow-iteration="10">
+				oh yeah!
+			</section> -->
 
 
 
@@ -43,7 +121,22 @@
 		================================================== -->
 		<!-- Placed at the end of the document so the pages load faster -->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-		<script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
 		<script src="dist/js/bootstrap.min.js"></script>
+
+		<script src="js/plugins.js"></script>
+		<script src="js/functions.js"></script>
+
+		<script>
+              wow = new WOW(
+              {
+              boxClass:     'wow',      // default
+              animateClass: 'animated', // default
+              offset:       0,          // default
+              mobile:       true,       // default
+              live:         true        // default
+            }
+            )
+            wow.init();
+              </script>
 	</body>
 </html>
